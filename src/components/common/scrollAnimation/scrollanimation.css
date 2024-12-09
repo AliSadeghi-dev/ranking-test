@@ -1,0 +1,8 @@
+.scrollAnimation-container{
+    width: 55px;
+    height: 55px;
+    margin-bottom: 100px;
+    position: relative;
+    z-index: 3;
+    top: 50px;
+}

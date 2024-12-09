@@ -1,0 +1,32 @@
+.ArticleCard-container{
+    width: 274px;
+    height: 446px;
+    border-radius: 20px;
+    border: 2px;
+    background-color: rgba(48, 48, 48, 0.5);
+    border: 2px solid;
+    border-color: #FF8E49;
+    margin-inline: 15px;
+    text-align: center;
+    padding-inline: 15px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.ArticleCard-container img{
+    width: 240px;
+    height: 50%;
+    border-radius: 15px;
+    margin-bottom: 15px;
+    margin-block: 15px;
+}
+
+.ArticleCard-container:hover{
+    border-color: rgba(92, 242, 163, 1);
+    background-color: rgba(48, 48, 48, 0.7);
+    transition: 1s;
+}
+
+.ArticleCard-fontSize{
+    font-size: 12px;
+}
