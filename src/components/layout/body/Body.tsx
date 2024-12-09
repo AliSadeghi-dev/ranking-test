@@ -14,7 +14,8 @@ export default function Body() {
       <span className="body-background-image2"></span>
       <span className="body-background-image3"></span>
       <div className="bg-color-body">
-        <Header />
+        <h1>Test For Deployment</h1>
+        {/* <Header /> */}
         {/* <BodySection1 />
                 <BodySection2 />
                 <BodySection3 />
@@ -23,7 +24,7 @@ export default function Body() {
                     <BodySection5 />
                 </div>
                 <BodySection6 />    */}
-        <Footer />
+        {/* <Footer /> */}
       </div>
     </div>
   );

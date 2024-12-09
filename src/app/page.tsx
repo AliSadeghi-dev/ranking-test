@@ -1,22 +1,20 @@
-'use client'
+"use client";
 import Body from "@/components/layout/body/Body";
-import 'bootstrap/dist/css/bootstrap.min.css';
-import 'animate.css';
+import "bootstrap/dist/css/bootstrap.min.css";
+import "animate.css";
 // @ts-expect-error This type is incompatible due to library limitations.
-import AOS from 'aos';
-import 'aos/dist/aos.css';
+import AOS from "aos";
+import "aos/dist/aos.css";
 import { useEffect } from "react";
 export default function Home() {
-  useEffect(()=>{
+  useEffect(() => {
     AOS.init();
-  },[])
+  }, []);
   return (
     <div className="home-layout">
       <div className="home-response">
         <Body />
       </div>
     </div>
-    
-
   );
 }
