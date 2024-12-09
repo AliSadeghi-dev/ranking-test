@@ -14,17 +14,16 @@ export default function Body() {
       <span className="body-background-image2"></span>
       <span className="body-background-image3"></span>
       <div className="bg-color-body">
-        <h1>Test For Deployment</h1>
-        {/* <Header /> */}
-        {/* <BodySection1 />
-                <BodySection2 />
-                <BodySection3 />
-                <BodySection4 />
-                <div id="section5">
-                    <BodySection5 />
-                </div>
-                <BodySection6 />    */}
-        {/* <Footer /> */}
+        <Header />
+        <BodySection1 />
+        <BodySection2 />
+        <BodySection3 />
+        <BodySection4 />
+        <div id="section5">
+          <BodySection5 />
+        </div>
+        <BodySection6 />
+        <Footer />
       </div>
     </div>
   );
