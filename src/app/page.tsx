@@ -12,7 +12,8 @@ export default function Home() {
   return (
     <div className="home-layout">
       <div className="home-response">
-        <Body />
+        {/* <Body /> */}
+        <h1>Body</h1>
       </div>
     </div>
   );
